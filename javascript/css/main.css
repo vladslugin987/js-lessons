@@ -1,0 +1,51 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+#main {
+	text-align: center;
+}
+
+.blocks {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.block:last-child {
+	margin-right: 0;
+}
+
+.block {
+	padding: 5px 20px;
+	background: grey;
+	color: #fafafa;
+	width: 10%;
+	margin-right: 15px;
+	text-align: left;
+	transform: 1s;
+}
+
+.block:hover {
+	background: #323232;
+	cursor: pointer;
+}
+
+.block > h1 {
+	font-size: 18px;
+}
+
+#text {
+	text-align: justify;
+	width: 50%;
+}
+
+#text > h1 {
+	color: #323232;
+	text-transform: uppercase;
+}
+
+#text > p {
+	color: #717154;
+}

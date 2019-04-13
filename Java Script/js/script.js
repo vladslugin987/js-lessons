@@ -5,7 +5,7 @@
 // console.log( Math.floor(3.6) );
 // console.log( Math.round(3.6) );
 
-var a = 5,
+let a = 5,
     b = 5;
 a++;
 b--;
